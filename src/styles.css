@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bx-shadow {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+        rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.trans {
+    @apply transition-all ease-linear duration-300;
+}
+
+.image-container {
+    @apply w-[156px] h-[156px] rounded-[100%] border-white border-[0.5rem] overflow-hidden mb-8;
+}
+
+.image {
+    @apply w-full h-full object-cover;
+}
+
+.btn {
+    @apply text-[1.5rem] px-5 py-1;
+}
+
+.btn.active,
+.btn:hover {
+    @apply text-bg-clr-2;
+}

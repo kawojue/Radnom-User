@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random User</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Scripts -->
+    <script type="module" src="script.js" defer></script>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/8b9b074ef2.js" crossorigin="anonymous"></script>
+
+    <!-- Font Styles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="w-screen h-screen bg-bg-clr-1 font-poppins">
+    <div class="h-[50vh] bg-bg-clr-0 w-full"></div>
+    <main class="h-full w-full grid place-items-center top-0 fixed">
+        <section class="hero-center bg-white w-[90vw] max-w-[728px] h-[65vh] rounded-lg relative overflow-y-hidden mt-3
+            bx-shadow">
+            <div class="h-[20vh] bg-bg-clr-1 w-full absolute top-0 z-[1] border-b-[0.0625rem] border-bg-clr-0"></div>
+            <article class="absolute top-0 w-full z-[3] h-full grid place-items-center">
+                <div id="content" class="text-txt-clr-1 grid place-items-center text-center trans">
+                    <div class="image-container bx-shadow">
+                        <img src="./images/me.jpg" alt="Always Appear" class="image">
+                    </div>
+                    <p class="mb-2 text-[18px]">My username is</p>
+                    <h1 class="mb-2 md:text-[38px] text-[28px] text-bg-clr-0">Always Appear</h1>
+                    <div class="flex gap-2 md:gap-5 mb-5">
+                        <button type="button" title="username" class="btn trans md:text-[2rem]">
+                            <span class="fa-solid fa-user"></span>
+                        </button>
+                        <button type="button" title="email" class="btn trans md:text-[2rem]">
+                            <span class="fa-solid fa-envelope"></span>
+                        </button>
+                        <button type="button" title="age" class="btn trans md:text-[2rem]">
+                            <span class="fa-solid fa-calendar-days"></span>
+                        </button>
+                        <button type="button" title="address" class="btn trans md:text-[2rem]">
+                            <span class="fa-solid fa-location-dot"></span>
+                        </button>
+                        <button type="button" title="phone" class="btn trans md:text-[2rem]">
+                            <span class="fa-solid fa-phone"></span>
+                        </button>
+                        <button type="button" title="password" class="btn trans md:text-[2rem]">
+                            <span class="fa-solid fa-user-lock"></i>
+                        </button>
+                    </div>
+                    <button type="button" id="random"
+                        class="uppercase px-8 py-1 bg-bg-clr-2 tracking-widest rounded-lg text-white trans hover:bg-bg-clr-3 hover:text-txt-clr-2">
+                        random user
+                    </button>
+                </div>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>
